@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+		body {
+			--primary: #228ae3;
+			background: #080808;
+			color: white;
+			padding-bottom: 40px;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.demo {
+			width: 45vw;
+			height: 75vh;
+			margin: 10px auto;
+			position: relative;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.div5 {
+			width: 80vw;
+			height: 80vh;
+            
+		}
+
+		.controls{
+			text-align: center;
+		}
+
+		.control {
+			margin: 0px 20px;
+			cursor: pointer;
+		}
